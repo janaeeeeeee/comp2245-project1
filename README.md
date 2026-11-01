@@ -2,3 +2,7 @@
 
 This is Project 1 for Janae' Hill.
 
+
+
+tested in chrome 
+
