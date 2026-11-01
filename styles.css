@@ -243,3 +243,28 @@ h3 {
 .nav-links a:hover {
   color: #2F855A;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  section {
+    padding: 48px 0;
+  }
+
+  .site-header .container,
+  .site-footer .container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero .container,
+  .feature-list,
+  .visit .container {
+    grid-template-columns: 1fr;
+  }
+}
