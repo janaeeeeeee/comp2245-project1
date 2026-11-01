@@ -56,8 +56,14 @@ form.addEventListener("submit", function (event) {
     clearError(frequencyInput, frequencyError);
   }
 
-  if (firstInvalid) {
+   if (firstInvalid) {
+    message.textContent = "";
+    message.classList.remove("success");
     firstInvalid.focus();
     return;
   }
+
+  message.textContent = "Thank you, " + nameValue + "! You're on the mailing list.";
+  message.classList.add("success");
+  form.reset();
 });
