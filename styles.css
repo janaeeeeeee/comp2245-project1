@@ -76,3 +76,19 @@ section {
   font-size: 20px;
   margin-bottom: 24px;
 }
+.features h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.feature {
+  background-color: #F7FAFC;
+  padding: 32px;
+  border-radius: 12px;
+}
